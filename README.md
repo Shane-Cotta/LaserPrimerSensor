@@ -93,6 +93,20 @@ Physical reference — internal wiring of the assembled unit:
 
 > ⚠️ **Confirm against your unit:** (1) that power comes from the **AutoDrive 5 V** terminal rather than a separate adapter, and (2) that the **FS-N18 output is the NPN version**. The rest of the wiring is determined by the parts.
 
+3d reference — 3d render of the assembled pcb housing unit:
+![3D render](docs/images/assembled_housing.png)
+![3D render](docs/images/inside_housing.png)
+
+3d reference — 3d render of the fiber head housing:
+![3D render](docs/images/fiber_head_housing_top.png)
+![3D render](docs/images/fiber_head_housing_bottom.png)
+
+Physical reference — the fiber head mounted under the shell plate, with the fiber routed back to the electronics box:
+![Fiber head mounted](docs/images/fiber_head_mounted.jpeg)
+
+Physical reference — the assembled unit ready for mounting to the press:
+![Assembled unit](docs/images/assembled_unit.jpg)
+
 ---
 
 ## 3. Assembly
