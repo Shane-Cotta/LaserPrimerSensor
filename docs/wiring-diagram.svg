@@ -1,0 +1,90 @@
+<svg viewBox="0 0 1000 700" xmlns="http://www.w3.org/2000/svg" font-family="Segoe UI, Arial, sans-serif">
+  <style>
+    .box   { fill:#f4f6f8; stroke:#2b2f33; stroke-width:2; }
+    .title { font-size:16px; font-weight:700; fill:#111; }
+    .sub   { font-size:12px; fill:#444; }
+    .pin   { font-size:11px; fill:#222; font-weight:600; }
+    .pwrP  { stroke:#cc2b2b; stroke-width:3; fill:none; }
+    .pwrN  { stroke:#222;    stroke-width:3; fill:none; }
+    .sig   { stroke:#1565c0; stroke-width:3; fill:none; }
+    .opt   { stroke:#e08a00; stroke-width:3; fill:none; stroke-dasharray:7 5; }
+    .lbl   { font-size:11px; fill:#333; }
+    .note  { font-size:12px; fill:#333; }
+    .dom   { fill:none; stroke:#aaa; stroke-width:1.5; stroke-dasharray:4 4; }
+    .domlbl{ font-size:12px; fill:#777; font-weight:700; }
+  </style>
+
+  <text x="500" y="30" text-anchor="middle" class="title" font-size="20">Laser Primer Sensor — Wiring</text>
+  <text x="500" y="50" text-anchor="middle" class="sub">Powered from the Apex 10 / AutoDrive 5V; sensor side runs at 12V; signal isolated back to the board</text>
+
+  <rect class="dom" x="20" y="75" width="300" height="540"/>
+  <text x="30" y="95" class="domlbl">5V SIDE (AutoDrive board)</text>
+  <rect class="dom" x="360" y="75" width="620" height="540"/>
+  <text x="372" y="95" class="domlbl">12V SIDE (sensor)</text>
+
+  <rect class="box" x="40" y="170" width="160" height="150" rx="8"/>
+  <text x="120" y="200" text-anchor="middle" class="title">Apex 10</text>
+  <text x="120" y="218" text-anchor="middle" class="sub">AutoDrive board</text>
+  <text x="58" y="250" class="pin">5V out</text>
+  <text x="58" y="278" class="pin">GND</text>
+  <text x="58" y="306" class="pin">SIGNAL in</text>
+
+  <rect class="box" x="240" y="150" width="170" height="120" rx="8"/>
+  <text x="325" y="180" text-anchor="middle" class="title">XL6019</text>
+  <text x="325" y="198" text-anchor="middle" class="sub">boost &#8594; set to 12.0 V</text>
+  <text x="258" y="230" class="pin">IN+</text>
+  <text x="372" y="230" class="pin">IN&#8722;</text>
+  <text x="258" y="258" class="pin">OUT+</text>
+  <text x="368" y="258" class="pin">OUT&#8722;</text>
+
+  <rect class="box" x="470" y="150" width="200" height="120" rx="8"/>
+  <text x="570" y="178" text-anchor="middle" class="title">FS-N18</text>
+  <text x="570" y="196" text-anchor="middle" class="sub">fiber amp &#8212; set NPN</text>
+  <text x="488" y="226" class="pin">Brn +12V</text>
+  <text x="488" y="244" class="pin">Blu 0V</text>
+  <text x="488" y="262" class="pin">Blk OUT</text>
+  <text x="640" y="220" text-anchor="middle" class="pin">T &#9656;</text>
+  <text x="640" y="244" text-anchor="middle" class="pin">R &#9666;</text>
+
+  <rect class="box" x="760" y="160" width="200" height="90" rx="8"/>
+  <text x="860" y="190" text-anchor="middle" class="title">RS320-TZ-M3</text>
+  <text x="860" y="210" text-anchor="middle" class="sub">90&#176; fiber head</text>
+  <text x="860" y="230" text-anchor="middle" class="sub">(emit + receive)</text>
+
+  <circle cx="860" cy="320" r="26" fill="#e8e2d0" stroke="#7a6a3a" stroke-width="2"/>
+  <text x="860" y="324" text-anchor="middle" class="pin">primer</text>
+  <text x="860" y="370" text-anchor="middle" class="sub">at the priming station</text>
+
+  <rect class="box" x="240" y="420" width="430" height="120" rx="8"/>
+  <text x="455" y="448" text-anchor="middle" class="title">PC817 opto-isolator</text>
+  <text x="455" y="466" text-anchor="middle" class="sub">12V input version</text>
+  <text x="258" y="500" class="pin">IN+</text>
+  <text x="340" y="500" class="pin">IN&#8722;</text>
+  <text x="470" y="500" class="pin">VCC</text>
+  <text x="540" y="500" class="pin">OUT</text>
+  <text x="610" y="500" class="pin">GND</text>
+
+  <path class="pwrP" d="M200 245 H225 V225 H240"/>
+  <path class="pwrP" d="M213 245 V485 H470"/>
+  <path class="pwrN" d="M200 273 H232 V225 H240"/>
+  <path class="pwrN" d="M226 273 V520 H610"/>
+  <path class="sig" d="M540 505 V560 H120 V315"/>
+
+  <path class="pwrP" d="M410 250 H440 V222 H488"/>
+  <path class="pwrP" d="M430 250 V485 H258"/>
+  <path class="pwrN" d="M410 262 H452 V240 H488"/>
+  <path class="sig" d="M548 270 V505 H340"/>
+  <text x="556" y="360" class="lbl">Blk signal &#8594; IN&#8722;</text>
+
+  <path class="opt" d="M660 216 H760"/>
+  <path class="opt" d="M660 240 H740 V235 H760"/>
+  <text x="710" y="195" text-anchor="middle" class="lbl">optical fiber</text>
+  <path class="opt" d="M860 250 V294"/>
+
+  <rect x="20" y="630" width="960" height="58" rx="8" fill="#fafafa" stroke="#ccc" stroke-width="1"/>
+  <line x1="35" y1="652" x2="75" y2="652" class="pwrP"/><text x="82" y="656" class="note">+ power (5V or 12V)</text>
+  <line x1="240" y1="652" x2="280" y2="652" class="pwrN"/><text x="287" y="656" class="note">GND</text>
+  <line x1="360" y1="652" x2="400" y2="652" class="sig"/><text x="407" y="656" class="note">signal</text>
+  <line x1="500" y1="652" x2="540" y2="652" class="opt"/><text x="547" y="656" class="note">optical fiber / light</text>
+  <text x="35" y="678" class="note">Confirm against your unit: power source (AutoDrive 5V vs. separate adapter) and that the FS-N18 output is set to NPN.</text>
+</svg>
