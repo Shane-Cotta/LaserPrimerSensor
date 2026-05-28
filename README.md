@@ -173,6 +173,12 @@ The PC817 output side ties into the Apex 10's 3-pin sensor port: **OUT → SIGNA
 
 ---
 
+## Support the Project
+
+If this project helped you on your reloading journey, saved you some troubleshooting time, or inspired your own DIY build, and you'd like to support continued development and experimentation, you can do so here:
+
+[Support the Project](https://donate.stripe.com/9B69AT9jK94z3j71312Ji00)
+
 ## License
 
 This project's original work — including the custom 3D-printable housing designs, wiring diagram, photos, assembly instructions, and documentation — is licensed under the:
@@ -220,9 +226,3 @@ If you are interested in manufacturing, selling kits, offering assembled units, 
 This project is provided "as is", without warranty of any kind, express or implied. Reloading ammunition and modifying automated loading equipment can be dangerous. You are solely responsible for verifying safe operation, proper wiring, and safe reloading practices before use.
 
 Always test thoroughly with dummy or inert components before live operation.
-
-## Support the Project
-
-If this project helped you on your reloading journey, saved you some troubleshooting time, or inspired your own DIY build, and you'd like to support continued development and experimentation, you can do so here:
-
-[Support the Project](https://donate.stripe.com/9B69AT9jK94z3j71312Ji00)
