@@ -95,7 +95,7 @@ Physical reference — internal wiring of the assembled unit:
 
 3d reference — 3d render of the assembled pcb housing unit:
 ![3D render](docs/images/assembled_housing.png)
-![3D render](docs/images/inside_housing.png) 
+![3D render](docs/images/Inside_housing.png) 
 
 3d reference — 3d render of the fiber head housing:
 ![3D render](docs/images/fiber_head_housing_top.png)
