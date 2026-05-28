@@ -91,7 +91,7 @@ Physical reference — internal wiring of the assembled unit:
 
 ![Internal wiring](docs/images/internal-wiring.jpg)
 
-> ⚠️ **Confirm against your unit:** (1) that power comes from the **AutoDrive 5 V** terminal rather than a separate adapter, and (2) that the **FS-N18 output is set to NPN**. The rest of the wiring is determined by the parts.
+> ⚠️ **Confirm against your unit:** (1) that power comes from the **AutoDrive 5 V** terminal rather than a separate adapter, and (2) that the **FS-N18 output is the NPN version**. The rest of the wiring is determined by the parts.
 
 ---
 
