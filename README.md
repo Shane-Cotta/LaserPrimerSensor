@@ -137,7 +137,7 @@ Mode and threshold (general setup): **Dark-ON**, threshold ≈ **3950**. Tune to
 **Other settings to dial in:**
 - **Output type:** set to **NPN** (open-collector to ground) to match the PC817 input wiring and the AutoDrive board.
 - **Response time (P0–P4):** faster (P0/P1) catches the primer during the brief dwell; slower modes reject noise. Match to your press speed.
-- **Output mode:** Light-ON vs Dark-ON (you're using Dark-ON).
+- **Output mode:** Light-ON vs Dark-ON (use Dark-ON).
 - **Delay/timer:** On/Off/One-shot delay (1–9999 ms) if you need to time the read to the dwell.
 - **FEC (F1–F4):** if you add a second amplifier nearby, set them to different FEC channels to prevent mutual interference.
 - **Keyboard lockout:** lock the keys after tuning so settings don't drift.
@@ -147,8 +147,6 @@ Mode and threshold (general setup): **Dark-ON**, threshold ≈ **3950**. Tune to
 ## 6. Connect to the press
 
 The PC817 output side ties into the Apex 10's 3-pin sensor port: **OUT → SIGNAL**, **VCC → 5 V**, **GND → GND** (the same 5 V and GND that feed the boost input). A fault — missing or misoriented primer — switches the signal so the press halts before it indexes to the next station. You can disable the sensor from the Mark 7 tablet when processing brass without primers.
-
-> ⚠️ Confirm the polarity and active-high/active-low expectation for your Autodrive firmware before relying on it; test with dummy cases first.
 
 ---
 
