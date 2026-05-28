@@ -31,7 +31,7 @@ The **XL6019** boost converter takes the Apex 10 / AutoDrive board's **5 V** and
 | 4 | NOYITO **PC817** 1-channel optocoupler isolation module (12 V input version) — [link](https://www.amazon.com/dp/B0B5383L69) | 1 | Isolates the 12 V sensor signal back to the board's 5 V SIGNAL terminal |
 | 5 | **In-Line Module Housing** (3D printed) | 1 | Electronics box — `hardware/In-Line_Module_Housing.step` |
 | 6 | **Fiber Module Housing** (3D printed) | 1 | Holds fiber head under shell plate — `hardware/Fiber_Module_Housing.step` |
-| 7 | Power | — | Taken from the **Apex 10 / AutoDrive 5 V** output (no separate adapter in the standard setup — ⚠️ confirm for your build) |
+| 7 | Power | — | Taken from the **Apex 10 / AutoDrive 5 V** output (no separate adapter in the standard setup) |
 | 8 | 3-pin terminal / cable to the AutoDrive sensor port | 1 | Carries 5 V, GND, and SIGNAL between the box and the board |
 | 9 | Zip ties | a few | To mount the In-Line box to the case feeder pole (optional) |
 
