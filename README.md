@@ -128,7 +128,7 @@ Physical reference — internal wiring of the assembled unit:
 
 ## 5. Configure the FS-N18
 
-Mode and threshold (your working setup): **Dark-ON**, threshold ≈ **3950**. Tune to your own optics and lighting.
+Mode and threshold (general setup): **Dark-ON**, threshold ≈ **3950**. Tune to your own optics and lighting.
 
 **Two-point teach (recommended):**
 1. With **no primer / empty pocket** in front of the head, press **SET** (hold < 2 s).
